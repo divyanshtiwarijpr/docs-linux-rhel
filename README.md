@@ -1,4 +1,4 @@
-# notes-linux-rhel
+# docs-linux-rhel
 
 1. This repository is created by me to manage my personal docmentation related to Red Hat Enterprise Linux starting from RHEL 6. 
 2. This will be an ongoing process as there is too much confusing and contradicting information and I will try my best to write only when I feel it is correct upto my knowledge.
