@@ -2,7 +2,7 @@
 
 
 1. Register the system using the following command:
-	
+
 	`subscription-manager register --name=NAME_WANTED_ON_RHSM_PORTAL`
 
 
@@ -64,8 +64,8 @@
 	`subscription-manager`
 
 	9.3. See action specific help using the following command:
-		
-	` subscription-manager [register | clean | unregister | etc ] --help` 
+	
+	` subscription-manager [register | clean | unregister | etc ] --help`
 		
 
 
