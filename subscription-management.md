@@ -24,12 +24,12 @@
 
 
 4. Attach the subscription using the following command:
-	
+
 	`subscription-manager attach --pool=POOL_ID`
 
 
 5. Verify the list of attached subscriptions using the following command:
- 
+
 	`subscription-manager list --consumed`
 
 
@@ -37,7 +37,7 @@
 
 7. In case of any mistake do not just run `subscription-manager clean` rather first remove the attached subscriptions so you don't leave the RHSM portal with stale information.
 
-	7.1. To remove a particular subscription: 
+	7.1. To remove a particular subscription:
 
     `subscription-manager remove --pool=POOL_ID`
 
@@ -55,22 +55,20 @@
 
 9. For any help use the following commands:
 
-	9.1. Use the installed man documentation using the following command: 
+	9.1. Use the installed man documentation using the following command:
 
     `man subscription-manager`
 
-	9.2. Run subscription-manager without any options to see the usage foramt: 
+	9.2. Run subscription-manager without any options to see the usage foramt:
 
 	`subscription-manager`
 
 	9.3. See action specific help using the following command:
-	
-	` subscription-manager [register | clean | unregister | etc ] --help`
-		
+
+	` subscription-manager [register | clean | unregister | etc] --help`
+
 
 
 10. For a quick registration process use the auto attach functionality:
-	
-	`subscription-manager register --name=NAME_WANTED_ON_RHSM_PORTAL --auto-attach`
 
-		
+	`subscription-manager register --name=NAME_WANTED_ON_RHSM_PORTAL --auto-attach`
