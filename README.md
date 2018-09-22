@@ -1,8 +1,8 @@
 # docs-linux-rhel
 
-1. This repository is created by me to manage my personal docmentation related to Red Hat Enterprise Linux starting from RHEL 6. 
+1. This repository is created by me to manage my personal docmentation related to important topics about Red Hat Enterprise Linux starting from RHEL 6. 
 
-2. This will be an ongoing process as there is too much confusing and contradicting information and I will try my best to filter confusing and contradicting information write only when I feel it is correct upto my knowledge.
+2. This will be an ongoing process as there is too much confusing and contradicting information and I will try my best to filter confusing and contradicting information and write only when I feel it is correct upto my knowledge. Althogh I will be constantly updating the documents as I will find minor mistakes or any confusing statements of mine.
 
 3. Most ot the things written are tested by me first in a physical or virtual environment based on VMware Workstation Pro and/or Amazon AWS, Microsoft Azure, DigitalOcean. But there may be some topics which need more hands experience and some collaboration from your side so feel free to comment and help me in this initiative.
 
