@@ -65,7 +65,7 @@
 
 	9.3. See action specific help using the following command:
 		
-		 subscription-manager [register | clean | unregister | etc ] --help 
+	` subscription-manager [register | clean | unregister | etc ] --help` 
 		
 
 
