@@ -1,4 +1,6 @@
-## To understand the required settings for setting *static hostname* and *FQDN*.
+## SETTING *STATIC HOSTNAME* AND *FQDN*
+
+<br>
 
 1. The FQDN of the system is the name that the **resolver** returns for the hostname. It is usually (not everytime) the hostname (static hostname) followed by the DNS domain name  (only when there is short static hostname). It can be exactly same as the static hostname. Actually It is recommended in **RHEL 6 Deployment Guide** to have the same values for both FQDN and static hostname.
 

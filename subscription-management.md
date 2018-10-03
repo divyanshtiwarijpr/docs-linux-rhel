@@ -1,5 +1,6 @@
-## Registering and then attaching subscriptions to REHL systems using Red Hat Subscription Management.
+## SUBSCRIPTION MANAGEMENT ON REHL SYSTEMS
 
+<br>
 
 1. Register the system using the following command:
 
