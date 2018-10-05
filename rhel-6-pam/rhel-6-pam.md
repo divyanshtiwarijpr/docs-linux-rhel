@@ -30,3 +30,4 @@ request via the locally available authentication modules.
     - Password management.
 
 
+- ![alt text](https://raw.githubusercontent.com/divyanshtiwarijpr/docs-linux-rhel/rhel-6-pam/organization.png)
