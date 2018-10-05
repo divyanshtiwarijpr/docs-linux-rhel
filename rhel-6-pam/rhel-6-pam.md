@@ -30,4 +30,4 @@ request via the locally available authentication modules.
     - Password management.
 - Here is the figure that describes the overall organization of Linux-PAM.
 
-    ![](E:\synced-folders\Dropbox\technical-data-github\docs-linux-rhel\rhel-6-pam\organization.png)
+    ![](organization.png)
