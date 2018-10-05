@@ -28,6 +28,7 @@ request via the locally available authentication modules.
     - Account management.
     - Session management.
     - Password management.
-- Here is the figure that describes the overall organization of Linux-PAM.
 
-    ![](organization.png)
+
+- Here is a figure that describes the overall organization of Linux-PAM: 
+    ![alt text](https://github.com/divyanshtiwarijpr/docs-linux-rhel/blob/master/rhel-6-pam/organization.PNG)
