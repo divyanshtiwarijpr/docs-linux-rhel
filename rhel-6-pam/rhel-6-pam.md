@@ -29,24 +29,4 @@ request via the locally available authentication modules.
     - Session management.
     - Password management.
 
-  +----------------+
-  | application: X |
-  +----------------+       /  +----------+     +================+
-  | authentication-[---->--\--] Linux-   |--<--| PAM config file|
-  |       +        [----<--/--]   PAM    |     |================|
-  |[conversation()][--+    \  |          |     | X auth .. a.so |
-  +----------------+  |    /  +-n--n-----+     | X auth .. b.so |
-  |                |  |       __|  |           |           _____/
-  |  service user  |  A      |     |           |____,-----'
-  |                |  |      V     A
-  +----------------+  +------|-----|---------+ -----+------+
-                         +---u-----u----+    |      |      |
-                         |   auth....   |--[ a ]--[ b ]--[ c ]
-                         +--------------+
-                         |   acct....   |--[ b ]--[ d ]
-                         +--------------+
-                         |   password   |--[ b ]--[ c ]
-                         +--------------+
-                         |   session    |--[ e ]--[ c ]
-                         +--------------+
 
