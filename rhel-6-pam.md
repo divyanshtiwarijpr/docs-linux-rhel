@@ -31,4 +31,4 @@ request via the locally available authentication modules.
 
 
 - Here is a figure that describes the overall organization of Linux-PAM: 
-    ![alt text](https://github.com/divyanshtiwarijpr/docs-linux-rhel/blob/master/rhel-6-pam-data/organization.PNG)
+    ![alt text](/master/rhel-6-pam-data/organization.PNG)
