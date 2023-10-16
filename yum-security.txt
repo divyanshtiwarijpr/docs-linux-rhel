@@ -1,0 +1,53 @@
+## COMMANNDS AND OPTIONS ADDED BY YUM SECURITY PLUGIN
+
+- The yum security plugin can be installed by running the following command:
+
+# yum install yum-plugin-security
+
+- The added commands with this plugin are given below. These can be merged with global options for more filtering.
+
+# yum update-minimial
+
+# yum updateinfo 
+# yum updateinfo summary
+# yum updateinfo summary [all | available | installed | updates] 
+
+# yum updateinfo info
+# yum updateinfo info [all | available | installed | updates]
+# yum updatenifo PACKAGE_NAME
+# yum updateinfo ADVISORY_ID
+
+# yum updateinfo list 
+# yum updateinfo list [all | available | installed | updates]
+# yum updateinfo bugzillas
+# yum updateinfo cves
+# yum updateinfo security
+# yum updateinfo bugfix 
+# yum updateinfo enhancement
+# yum updateinfo recommended
+# yum updateinfo new
+
+
+ Some global options are also added to yum that are available in the "list updates", "info updates", "check-update", "update" commands.
+ 
+    1. --advisory ADVISORY_ID
+    - --bz BUGZILLA_ID
+    - --cve CVE_NO
+    - --bugfixes
+    - --security
+
+- We can use global options in the following manner with the inbuilt commands. These global options can be merged with added commannds also.
+
+# yum check-update [--security | --bugfixes | --advisory ID | --bz ID | --cve NO]
+
+# yum list updates [--security | --bugfixes | --advisory ID | --bz ID | --cve NO]
+
+# yum info updates [--security | --bugfixes | --advisory ID | --bz ID | --cve NO]
+
+# yum update [--security | --bugfixes | --advisory ID | --bz ID | --cve NO]
+
+
+- References:
+
+man 8 yum-security
+

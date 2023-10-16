@@ -5,3 +5,5 @@
 2. If static hostname is `localhost.localdomain` then DNS is checked if there is a full hostname available by running `uname -n`.
 
 3. There are things that need to be updated in the main file.
+
+- We cannot se wildcard entries in hosts file but we can use them in DNS server.
